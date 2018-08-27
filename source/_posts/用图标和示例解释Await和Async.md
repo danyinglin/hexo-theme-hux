@@ -3,10 +3,6 @@ title: "用图标和示例解释Await和Async"
 date: 2018-08-18 20:58:31
 catalog: true
 tags:
-    - es7
-    - promise
-    - js
-    - request
 ---
 # 简介
 JavaScript ES7 中的 async / await 让多个异步 promise 协同工作起来更容易。如果要按一定顺序从多个数据库或者 API 异步获取数据，你可能会以一堆乱七八糟的 promise 和回调函数而告终。而 async / await 结构让我们能用可读性强、易维护的代码更加简洁地实现这些逻辑。

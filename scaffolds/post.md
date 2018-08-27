@@ -2,7 +2,7 @@
 title: {{ title }}
 date: {{ date }}
 catalog: true
-author: "CSjiabin"
+author: "DK"
 header-img: "/img/home-bg.jpg"
 tags:
 

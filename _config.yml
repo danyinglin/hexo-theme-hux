@@ -3,15 +3,15 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: CSjiabin's Blog
-subtitle: To Be A Lean Developer!
-author: JiaBin Huang
+title: DK
+subtitle: I love the way i chase my.
+author: DK
 language:
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://csjiabin.github.io
+url: "http://danyinglin.github.io"
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -19,11 +19,11 @@ permalink_defaults:
 #Custom Setting Start
 
 # Site settings
-SEOTitle: CSjiabin的博客 | CSjiabin's Blog
-header-img: /img/home-bg-o.jpg
-email: qq1187712426@gmail.com
-description: "Goals determine what you going to be!!"
-keyword: "hjb, csjiabin, csjiabin Blog, 黄佳滨的博客, huangjiabin, 黄佳滨, html, css, javascript, js, JavaScript, Node, node, nodejs, h5, html5, 小程序, vue"
+SEOTitle: DK's
+header-img: /img/post-bg-2015.jpg
+email: dylin.fow@gmail.com
+description: "I love the way I chase you."
+keyword: "DK, DK's Blog, iOS, Apple, app"
 signature: true #show signature
 signature-img: /img/signature/white.png 
 
@@ -40,20 +40,20 @@ search:
 
 # SNS settings
 # RSS: false
-zhihu_username:     csjiabin
-github_username:    csjiabin
-jianshu_username:   f7f87e65552a
+zhihu_username:     danyinglin
+github_username:    danyinglin
+jianshu_username:   11700e1a83c3
 
 # Build settings
 anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
 
 daovoice:
-    enable: true
+    enable: false
     app_id: bdc5c12d
     email: qq1187712426@gmail.com
 
 # Disqus settings
-disqus_username: csjiabin
+disqus_username: ddddddk
 
 # Duoshuo settings
 # duoshuo_username: kaijun
@@ -65,9 +65,9 @@ gitalk:
   enable: false    #是否开启Gitalk评论
   clientID: 7bd18cd14435f89a4dfb                            #生成的clientID
   clientSecret: 87b3c3f9d0aa37f71d64aac84331b2e5e769b3a1    #生成的clientSecret
-  repo: csjiabin.github.io    #仓库名称
-  owner: csjiabin    #github用户名
-  admin: csjiabin
+  repo: danyinglin.github.io    #仓库名称
+  owner: danyinglin    #github用户名
+  admin: danyinglin
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 # Analytics settings
@@ -83,8 +83,8 @@ google_site_verification: Xk9YWz2-rBE9P5__qdWz3nUr4zb9bIDSdANHpezjB04
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "Goals determine what you going to be!!"
-sidebar-avatar: https://avatars1.githubusercontent.com/u/20592953?s=460&v=4       # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "I love the way I chase you."
+sidebar-avatar: /img/about-DK-gentle.jpg     # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 # Featured Tags
@@ -101,11 +101,11 @@ friends: [
         title: "CSjiabin's Blog",
         href: "https://csjiabin.github.io"
     },{
-        title: "WY",
-        href: "http://zhengwuyang.com"
+        title: "Material Design",
+        href: "https://material.io/"
     },{
-        title: "简书·csjiabin",
-        href: "https://www.jianshu.com/u/f7f87e65552a"
+        title: "BYQiu's Jianshu",
+        href: "http://www.jianshu.com/u/e71990ada2fd"
     }
 ]
 
@@ -168,5 +168,5 @@ theme: huxblog
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/csjiabin/csjiabin.github.io.git
+  repo: https://github.com/danyinglin/danyinglin.github.io.git
   branch: master
