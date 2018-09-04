@@ -6,12 +6,12 @@
 title: DK
 subtitle: I love the way i chase my.
 author: DK
-language:
+language: zh-Hans
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: "http://danyinglin.github.io"
+url: http://danyinglin.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -162,8 +162,12 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: huxblog
-
+theme: next
+archive_generator:
+  per_page: 10
+  yearly: false
+  monthly: false
+  daily: false
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
